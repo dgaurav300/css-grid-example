@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+        .grid-container{           
+            width: 80%;
+            height: auto;
+            margin: auto;
+            gap: 5px 10px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .grid-item{
+           
+            background-color: crimson;
+            border: 2px black solid;
+            text-align: center;
+            text-shadow: 5px 5px 3px black,6px 6px 3px blue,7px 7px 3px purple;            
+            padding: 8px;
+            color: antiquewhite;
+            box-shadow:  5px 4px 8px black;
+        }
+        .header-cell{
+            
+            padding: 10px;
+            background-color: black;          
+            border: 4px crimson  solid;
+        }
+        p{
+            width: 80%;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Tilt Neon', sans-serif;
+            margin: auto;
+            height: 200px;
+            background-color: chartreuse;
+            text-align: left;
+            padding: 10px;
+            overflow: auto;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+
+            
+        }
+        p::first-letter{
+            color:red;
+            font-size: 40px;
+            background-color: yellow;
+            padding: 5px;
+            border: 3px black solid;
+            
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum 
+    </p>
+    <div class="grid-container">
+        <div class="grid-item header-cell">Sr.</div>
+        <div class="grid-item header-cell">Name</div>
+        <div class="grid-item header-cell">Age</div>
+        <div class="grid-item header-cell">City</div>
+
+        <div class="grid-item ">1</div>
+        <div class="grid-item">Akash</div>
+        <div class="grid-item">20</div>
+        <div class="grid-item">Lucknow</div>
+
+        <div class="grid-item">2</div>
+        <div class="grid-item">Arjun</div>
+        <div class="grid-item">23</div>
+        <div class="grid-item">Bangalore</div>
+
+        <div class="grid-item">3</div>
+        <div class="grid-item">Rahul</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">Ayodhya</div>
+
+        <div class="grid-item">3</div>
+        <div class="grid-item">Rahul</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">Ayodhya</div>
+
+
+        <div class="grid-item">3</div>
+        <div class="grid-item">Rahul</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">Ayodhya</div>
+
+        <div class="grid-item">3</div>
+        <div class="grid-item">Rahul</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">Ayodhya</div>
+
+        <div class="grid-item">3</div>
+        <div class="grid-item">Rahul</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">Ayodhya</div>
+    </div>
+
+
+</body>
+</html>
